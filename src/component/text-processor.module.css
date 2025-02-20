@@ -21,11 +21,15 @@
   padding: 2%;
   margin: auto;
   box-sizing: border-box;
-  border: 2px solid #2c2c92;
+  border: 2px solid #1c1c36;
   font-size: 16px;
-  font-family: cursive;
+  font-family: sans-serif;
+}
+.textArea:hover {
+  transform: scale(1.05);
 }
 .submitBtn {
+  background-color: #fff;
   padding: 2px 10px;
   border-radius: 10px;
   border: none;
@@ -34,7 +38,7 @@
   bottom: 5px;
 }
 .submitBtn:hover {
-  border: 2px solid #2c2c92;
+  border: 1px solid #2c2c92;
 }
 .submitLogo {
   width: 30px;

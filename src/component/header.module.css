@@ -2,14 +2,19 @@
   width: 98%;
   display: flex;
   align-items: center;
-  margin: 1% auto 2%;
+  margin: 1% auto 3%;
   border-radius: 10px;
-  color: #ffffff;
+  color: #bdbdc2;
   background-color: #272742;
-  border: 1px solid darkolivegreen;
+  font-family: sans-serif;
+  padding: 1%;
 }
 .nav {
   display: flex;
   flex-direction: column;
   padding: 10px 30px;
+}
+.nav p {
+  font-style: italic;
+  font-family: cambria, sans-serif;
 }

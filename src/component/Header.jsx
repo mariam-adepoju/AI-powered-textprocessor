@@ -4,7 +4,7 @@ export default function Header() {
     <div className={styles.header}>
       <div className={styles.nav}>
         <h1 className={styles.title}>Text Processor</h1>
-        <p>Detect language,translate and summarize </p>
+        <p>Detect Language, Translate and Summarize </p>
       </div>
     </div>
   );
