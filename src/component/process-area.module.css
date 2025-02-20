@@ -1,0 +1,33 @@
+.processArea {
+  width: 70%;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  margin: 1%;
+}
+.section {
+  overflow-y: scroll;
+  padding: 1%;
+  height: 60vh;
+}
+.btnContainer {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+}
+.btnContainer button {
+  padding: 5px;
+  border-radius: 10px;
+  background: white;
+  border: none;
+}
+.btnContainer button:hover {
+  transform: scale(1.05);
+  border: 1px solid #16163c;
+}
+select {
+  padding: 5px;
+  border-radius: 10px;
+  background: white;
+  border: none;
+}

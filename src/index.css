@@ -1,0 +1,10 @@
+:root {
+  width: 100%;
+  margin: 0;
+  background-color: #686784b2;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,15 @@
+.header {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  margin: 1% auto 2%;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #272742;
+  border: 1px solid darkolivegreen;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
