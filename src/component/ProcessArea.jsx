@@ -54,6 +54,8 @@ export default function ProcessArea({
         sender: "user",
         language: language,
       };
+      // setMessages((prev) => [...prev, userMessage]);
+
       if ("ai" in self && "translator" in self.ai) {
         //console.log("the translator Api is supported");
         const translatorCapabilities = await self.ai.translator.capabilities();
@@ -163,6 +165,7 @@ export default function ProcessArea({
           <p>loading...</p>
         ) : summary ? (
           <div className={styles.processArea} aria-label="summarized-text">
+            <p>The Summary</p>
             {summary}
           </div>
         ) : null}

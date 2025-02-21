@@ -1,7 +1,8 @@
 .processArea {
-  width: 70%;
-  padding: 2%;
-  border-radius: 10px;
+  width: max-content;
+  max-width: 60%;
+  padding: 1%;
+  border-radius: 15px;
   background-color: antiquewhite;
   margin: 1%;
 }
@@ -12,16 +13,17 @@
   align-items: flex-end;
 }
 .outputBox {
-  width: 70%;
-  padding: 2%;
-  border-radius: 10px;
+  width: max-content;
+  max-width: 60%;
+  padding: 1%;
+  border-radius: 15px;
   background-color: antiquewhite;
   margin: 1%;
 }
 .section {
   overflow-y: auto;
   padding: 1%;
-  height: 60vh;
+  height: 50vh;
 }
 .section::-webkit-scrollbar {
   width: 8px; /*Width of the vertical scrollbar*/
