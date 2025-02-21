@@ -49,7 +49,7 @@ export default function TextProcessor() {
     }
   };
   if (errorMsg !== null) {
-    <p>Error Occured, {error}</p>;
+    <p>Error Occured, {errorMsg}</p>;
   }
 
   return (
